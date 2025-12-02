@@ -21,7 +21,7 @@ header, footer {
 .pfp {
     height: 20em;
 }
-#home {
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
