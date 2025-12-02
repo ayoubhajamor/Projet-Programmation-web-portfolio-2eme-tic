@@ -7,13 +7,27 @@ body {
 }
 
 header {
-  min-height: 50px;
+  min-height: 10vh;
 }
 
 footer {
-  min-height: 50px;
+  min-height: 10vh;
 }
 
 header, footer {
     background-color: pink;
+}
+
+.pfp {
+    height: 20em;
+}
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#home, #experience, #projects {
+    width: 100%;
+    height: 100%;
 }
