@@ -49,3 +49,6 @@ header, footer {
 .switch:hover {
   cursor: pointer;
 }
+.hidden {
+  display: none;
+}
