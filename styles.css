@@ -42,6 +42,7 @@ header, footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 .switch {
   margin: 10px;
@@ -51,4 +52,7 @@ header, footer {
 }
 .hidden {
   display: none;
+}
+.switch_selected {
+  color: red;
 }
