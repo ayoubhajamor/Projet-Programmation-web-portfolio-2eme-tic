@@ -50,9 +50,39 @@ header, footer {
 .switch:hover {
   cursor: pointer;
 }
-.hidden {
-  display: none;
-}
+
 .switch_selected {
   color: red;
+}
+
+.img-cont img {
+  height: 80px;
+  width: 200px;
+}
+.img-cont {
+  display: flex;
+  align-items: center;
+}
+.exp {
+  display: flex;
+  justify-content: space-around;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.exp-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* Keep it in the last line */
+.hidden {
+  display: none;
 }
