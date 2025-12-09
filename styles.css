@@ -78,8 +78,35 @@ header, footer {
   justify-content: center;
   align-items: center;
 }
-
-
+.proj {
+  width: 80%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.proj > div {
+  width: 80%;
+}
+.proj img{
+  height: 30px;
+  width: 30px;
+}
+.proj-cont {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.projects {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* Keep it in the last line */
