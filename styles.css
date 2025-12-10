@@ -3,6 +3,13 @@
   --secondary: #17191A ;
   --text:  white;
 }
+@font-face {
+  font-family: hacker; /* set name */
+  src: url(fonts/CryptoCrashItalic-vmogL.ttf); /* url of the font */
+}
+header h1 {
+  font-family: hacker;
+}
 
 * {
   color: var(--text);
