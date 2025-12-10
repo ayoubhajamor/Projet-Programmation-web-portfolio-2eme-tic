@@ -1,4 +1,12 @@
+:root {
+  --primary: #272930;
+  --secondary: #17191A ;
+  --text:  white;
+}
 
+* {
+  color: var(--text);
+}
 body {
   min-height: 100vh;
   margin: 0;
@@ -13,13 +21,25 @@ header {
 footer {
   min-height: 10vh;
 }
+header , footer {
+  background-color: var(--primary);
+}
+main {
+  background-color: var(--secondary);
+}
 
-header, footer {
-    background-color: pink;
+
+/* Shadow footer and header  */
+header {
+  box-shadow: 0px 1px 5px ghostwhite;
+  z-index: 99;
+}
+footer {
+   box-shadow: 0px -1px 5px ghostwhite;
 }
 
 .pfp {
-    height: 20em;
+    height: 16em;
 }
 .home {
     display: flex;
@@ -45,7 +65,7 @@ header, footer {
   gap: 5px;
 }
 .switch {
-  margin: 10px;
+  padding: 10px;
 }
 .switch:hover {
   cursor: pointer;
