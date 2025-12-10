@@ -87,6 +87,16 @@ footer {
   align-items: center;
 }
 
+.exp , .proj{
+  background-color: var(--primary);
+}
+.proj {
+  height: 20%;
+}
+.exp {
+  height: 10rem;
+  width: 80%;
+}
 #footer {
   display: flex;
   flex-direction: column;
@@ -121,6 +131,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 .exp-cont {
   display: flex;
