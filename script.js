@@ -53,6 +53,12 @@ switch_home.addEventListener("click", switch_home_func);
 switch_experience.addEventListener("click", switch_experience_func);
 switch_projects.addEventListener("click", switch_projects_func);
 
+let hire_me = document.querySelector("#hire_me");
+hire_me.addEventListener("click", () => {
+    let name = prompt("Enter your name : ");
+    alert("I will contact you" + " " +name);
+})
+
 
 // START
 switch_home_func();
